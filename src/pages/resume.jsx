@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { baseUrl } from '../seo.config'
-import cv from '../../public/cv.pdf';
+import cv from 'https://yassersaife.github.io/Next_jsApp/public/cv.pdf';
 
 
   const handleDownload = () => {
