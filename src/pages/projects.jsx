@@ -97,7 +97,7 @@ export default function ProjectsIndex({ projects }) {
               url: `${baseUrl}api/og?title=Projects`,
               width: 1200,
               height: 600,
-              alt: `Projects | Rittik Basu`,
+              alt: `Projects | Yasser Saife `,
             },
           ],
         }}

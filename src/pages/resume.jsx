@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { baseUrl } from '../seo.config'
-import cv from 'https://yassersaife.github.io/Next_jsApp/public/cv.pdf';
+import cv from '@/images/cv.pdf';
 
 
   const handleDownload = () => {
@@ -21,7 +21,7 @@ import cv from 'https://yassersaife.github.io/Next_jsApp/public/cv.pdf';
 export default function Resume({ articles }) {
   return (
     <>
-      <NextSeo canonical={`${baseUrl}`} />
+      <NextSeo canonical={`${baseUrl}resume/`} />
       <Container className="-mt-[64px] flex flex-col items-center justify-center mt-10">
       <Button
           onClick={handleDownload}
