@@ -5,12 +5,12 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { baseUrl } from '../seo.config'
-import cv from '@/images/cv.pdf';
+import cv from '../../public/mycv.pdf'
 
 
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = cv
+    downloadLink.href = cv;
     downloadLink.download = 'cv.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();

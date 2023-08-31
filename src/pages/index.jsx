@@ -6,12 +6,13 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 // import { generateRssFeed } from '@/lib/generateRssFeed'
 import { baseUrl } from '../seo.config'
-import cv from '@/images/cv.pdf'
+import cv from '../images/pdf/cv.pdf';
 import imgyasser from '@/images/yasser2.png'
+let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
 
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = cv
+    downloadLink.href = cv;
     downloadLink.download = 'cv.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();
@@ -23,17 +24,19 @@ export default function Home({ articles }) {
       <NextSeo canonical={`${baseUrl}`} />
       <Container className="  -mt-[64px] flex h-screen items-center justify-center md:-mt-50">
       <div className="  flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-10 md:text-left">
-        <div className=" sm:mt-80  max-w-xs px-1 md:mt-2 md:w-1/2">
+        <div className="  max-w-xs px-1 md:w-1/2">
+
           <Image
             src={imgyasser}
             alt=""
             width={400}
-            height={300}
-            sizes="(min-width: 100px) 16rem, 15rem"
+            height={400}
+            sizes="(min-width: 50px) 16rem, 15rem"
             priority
 
-            className=" saturate-130 transition duration-500 hover:scale-110  animate-title rounded-full shadow-2x1"
+            className="  saturate-130 transition duration-500 hover:scale-110  animate-title rounded-full shadow-2x1"
           />
+        
         </div>
         <div className="max-w-2xl">
           <div className="animate-fade-in pb-4 pl-1 font-poppins text-sm font-bold tracking-widest text-zinc-600 dark:text-zinc-400 md:text-base">
