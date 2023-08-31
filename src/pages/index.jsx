@@ -6,7 +6,6 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 // import { generateRssFeed } from '@/lib/generateRssFeed'
 import { baseUrl } from '../seo.config'
-import cv from '../images/pdf/cv.pdf';
 import imgyasser from '@/images/yasser2.png'
 let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
 import cv from '../images/pdf/cv.pdf';
