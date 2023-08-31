@@ -9,10 +9,12 @@ import { baseUrl } from '../seo.config'
 import cv from '../images/pdf/cv.pdf';
 import imgyasser from '@/images/yasser2.png'
 let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
+import cv from '../images/pdf/cv.pdf';
 
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = cv;
+    downloadLink.href = {'https://yassersaife.github.io/Next_jsApp/'
+    };
     downloadLink.download = 'cv.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();
