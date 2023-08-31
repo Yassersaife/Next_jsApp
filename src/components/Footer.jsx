@@ -48,18 +48,18 @@ export function Footer() {
               <div className="flex gap-x-12 md:hidden">
                 
                 <SocialLinkMobile
-                  href="https://github.com"
+                  href="https://github.com/Yassersaife"
                   aria-label="Follow on GitHub"
                   icon={BsGithub}
                 />
                 <SocialLinkMobile
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/yasser-saife-220b82240/"
                   aria-label="Follow on LinkedIn"
                   icon={FaLinkedinIn}
                 />
                 <SocialLinkMobile
                   className="h-6 w-6"
-                  href="mailto:hello@rittik.io"
+                  href="mailto:y.saife2@gmail.com"
                   icon={MdEmail}
                 />
               </div>
