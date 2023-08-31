@@ -29,15 +29,15 @@ export default function Resume({ articles }) {
           onClick={handleDownload}
 
             variant="primary"
-            className="group ml-1 sm:ml-60 mt-4 sm:mt-5 h-8 animate-fade-in tracking-widest ring-4 ring-indigo-400"
+            className="group ml-1 sm:ml-40 mt-4 sm:mt-5 h-8 animate-fade-in tracking-widest ring-4 ring-indigo-400"
             >
             Download my CV
           </Button>
-      <div className=" animate-fade-in flex justify-center items-center my-4 sm:my-10">
+          <div className="animate-fade-in flex justify-center items-center my-4 sm:my-10 w-full sm:mx-10">
       
       <iframe
         src= {cv} // استبدل بمسار ملف الـ PDF الخاص بك
-        width="730"
+        width="750"
         height="800"
         title="CV PDF"
 
