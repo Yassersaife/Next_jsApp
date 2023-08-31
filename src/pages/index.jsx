@@ -22,22 +22,19 @@ export default function Home({ articles }) {
   return (
     <>
       <NextSeo canonical={`${baseUrl}`} />
-      <Container className="  -mt-[64px] flex h-screen items-center justify-center md:-mt-50">
-      <div className="  flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-10 md:text-left">
-        <div className="  max-w-xs px-1 md:w-1/2">
-
-          <Image
-            src={imgyasser}
-            alt=""
-            width={400}
-            height={400}
-            sizes="(min-width: 50px) 16rem, 15rem"
-            priority
-
-            className="  saturate-130 transition duration-500 hover:scale-110  animate-title rounded-full shadow-2x1"
-          />
-        
-        </div>
+      <Container className=" flex h-screen items-center justify-center md:-mt-50 ">
+      <div className="  bm:mt-100 flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-10 md:text-left">
+      <div className="max-w-xs px-1 md:w-1/2">
+  <Image
+    src={imgyasser}
+    alt=""
+    width={400}
+    height={400}
+    sizes="(max-width: 50px) 16rem, 15rem"
+    
+    className="saturate-130 transition duration-500 hover:scale-110 animate-title rounded-full shadow-2x1 sm:mt-4" 
+  />
+</div>
         <div className="max-w-2xl">
           <div className="animate-fade-in pb-4 pl-1 font-poppins text-sm font-bold tracking-widest text-zinc-600 dark:text-zinc-400 md:text-base">
             Hi, my name is
