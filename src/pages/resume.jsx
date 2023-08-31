@@ -36,7 +36,7 @@ export default function Resume({ articles }) {
       <div className=" animate-fade-in flex justify-center items-center my-4 sm:my-10">
       
       <iframe
-        src={cv} // استبدل بمسار ملف الـ PDF الخاص بك
+        src= {cv} // استبدل بمسار ملف الـ PDF الخاص بك
         width="730"
         height="800"
         title="CV PDF"

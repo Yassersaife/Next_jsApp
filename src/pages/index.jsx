@@ -12,7 +12,7 @@ import cv from '../images/pdf/cv.pdf';
 
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
-    downloadLink.href = {cv};
+    downloadLink.href = cv;
     downloadLink.download = 'cv.pdf';
     document.body.appendChild(downloadLink);
     downloadLink.click();
