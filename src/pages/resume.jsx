@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { baseUrl } from '../seo.config'
-import cv from '@/../public/cv.pdf'
+import cv from '@/../public/mycv.pdf'
 
 
   const handleDownload = () => {
