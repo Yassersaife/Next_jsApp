@@ -29,7 +29,6 @@ import { Button } from '@/components/Button'
 import portraitImage from '@/images/yasser.png'
 import { baseUrl } from '../seo.config'
 import node from '../images/node.png'
-import cv from '@/images/cv.pdf'
 
 import pal from '../images/pal.png'
 

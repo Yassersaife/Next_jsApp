@@ -21,6 +21,8 @@ import cv from '../../public/mycv.pdf'
 export default function Resume({ articles }) {
   return (
     <>
+          <NextSeo canonical={`${baseUrl}`} />
+
       <NextSeo canonical={`${baseUrl}resume/`} />
       <Container className="-mt-[64px] flex flex-col items-center justify-center mt-10">
       <Button
