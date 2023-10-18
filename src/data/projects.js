@@ -3,7 +3,15 @@ import line from '@/images/projects/2.png'
 import app from '@/images/projects/app.jpg'
 import pos from '@/images/projects/pos.png'
 import oip from '@/images/projects/OIP.jpg'
+import Waddili from '@/images/projects/Waddili.png'
 const data = [
+  {
+    title: 'Waddili App',
+    description:'I designed an application using React Native for a company, according to the required UI/UX specifications.    ',
+    techUsed: ['React native '],
+    image: Waddili,
+    
+  },
   {
     title: 'Sporter App',
     description:
