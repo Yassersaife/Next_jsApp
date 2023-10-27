@@ -10,6 +10,7 @@ import { FaLinkedinIn } from 'react-icons/fa'
 import {
   SiJavascript,
   SiReact,
+  SiTailwindcss,
   SiNextdotjs,
   SiPython,
   SiTailwindcss,
@@ -17,12 +18,10 @@ import {
   SiFirebase,
   SiJupyter,
   SiFlask,
-
 } from 'react-icons/si'
 
 import { DiNodejs } from 'react-icons/di'
 import nodejs from '../images/node.png'
-
 
 import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
@@ -33,17 +32,14 @@ import node from '../images/node.png'
 import pal from '../images/pal.png'
 
 const Certificates = [
- 
   {
-    name: "Node js",
+    name: 'Node js',
     image: node,
-    
   },
   {
-    name: "Traning on AI",
-   
+    name: 'Traning on AI',
+
     image: pal,
-    
   },
 ]
 
@@ -131,17 +127,14 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-              A fresh graduated Software Engineer, experienced
-in web development using many technologies and
-frameworks. I have finished full training in Paltel
-.also, I have worked many projects through my
-university education in web development and
-mobile application that supports me to be more
-skillful into this domain. Able to work as frontend
-engineer, full stack engineer, moreover
-professional handling for any related project.
-
-              
+                A fresh graduated Software Engineer, experienced in web
+                development using many technologies and frameworks. I have
+                finished full training in Paltel .also, I have worked many
+                projects through my university education in web development and
+                mobile application that supports me to be more skillful into
+                this domain. Able to work as frontend engineer, full stack
+                engineer, moreover professional handling for any related
+                project.
               </p>
               <div className="cursor-default">
                 <span className="font-poppins font-bold tracking-widest underline">
@@ -165,6 +158,14 @@ professional handling for any related project.
                       className="group-hover:fill-blue-400 dark:group-hover:fill-blue-300"
                     >
                       React
+                    </Skills>
+                  </div>
+                  <div>
+                    <Skills
+                      icon={SiTailwindcss}
+                      className="group-hover:fill-blue-400 dark:group-hover:fill-blue-300"
+                    >
+                      Tailwind css
                     </Skills>
                   </div>
                   <div>
@@ -226,38 +227,36 @@ professional handling for any related project.
                 </ul>
               </div>
               <div className="cursor-default">
-              <h1 className="my-10 text-center font-bold text-4xl">
-              Certificates i have
-        <hr className="w-6 h-1 mx-auto my-4 bg-purple-500 border-0 rounded"></hr>
-      </h1>
+                <h1 className="my-10 text-center text-4xl font-bold">
+                  Certificates i have
+                  <hr className="mx-auto my-4 h-1 w-6 rounded border-0 bg-purple-500"></hr>
+                </h1>
 
-      <div className="flex flex-col space-y-28">
-        {Certificates.map((project, idx) => {
-          return (
-            <div key={idx}>
-                <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
-                  <div className=" md:w-1/2">
-                      <Image
-                        src={project.image}
-                        alt=""
-                        width={1000}
-                        height={1000}
-                        className="rounded-xl shadow-xl hover:opacity-70"
-                      />
-                  </div>
-                  <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
-                    
-                    
-                  </div>
+                <div className="flex flex-col space-y-28">
+                  {Certificates.map((project, idx) => {
+                    return (
+                      <div key={idx}>
+                        <div className="animate-slideUpCubiBezier animation-delay-2  flex flex-col md:flex-row md:space-x-12">
+                          <div className=" md:w-1/2">
+                            <Image
+                              src={project.image}
+                              alt=""
+                              width={1000}
+                              height={1000}
+                              className="rounded-xl shadow-xl hover:opacity-70"
+                            />
+                          </div>
+                          <div className="mt-8 md:w-1/2">
+                            <h1 className="mb-6 text-4xl font-bold">
+                              {project.name}
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
-            </div>
-          )
-        })}
-        
-      </div>
-           
-          </div>
+              </div>
 
               <div className="flex justify-center pt-8 md:hidden">
                 <Button
@@ -273,7 +272,6 @@ professional handling for any related project.
           <div className="hidden font-poppins lg:col-span-5 lg:block lg:pl-10">
             <div className="flex justify-center">
               <ul role="list" className="space-y-6">
-                
                 <SocialLink
                   href="https://github.com/Yassersaife"
                   icon={BsGithub}
@@ -296,7 +294,7 @@ professional handling for any related project.
                   icon={MdEmail}
                   className=""
                 >
-              y.saife2@gmail.com
+                  y.saife2@gmail.com
                 </SocialLink>
                 <Button
                   href="/projects"
