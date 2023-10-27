@@ -13,7 +13,6 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiPython,
-  SiTailwindcss,
   SiBootstrap,
   SiFirebase,
   SiJupyter,
