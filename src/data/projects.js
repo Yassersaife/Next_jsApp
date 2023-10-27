@@ -4,14 +4,25 @@ import app from '@/images/projects/app.jpg'
 import pos from '@/images/projects/pos.png'
 import oip from '@/images/projects/OIP.jpg'
 import Waddili from '@/images/projects/Waddili.png'
+import  task from '@/images/projects/task1.png'
+import  taskapp from '@/images/projects/taskapp.png'
+
 const data = [
   {
     title: 'Waddili App',
     description:'I designed an application using React Native for a company, according to the required UI/UX specifications.    ',
-    techUsed: ['React native '],
+    techUsed: ['React Native '],
     image: Waddili,
     
   },
+  {
+    title: 'Management Expenses',
+    description:'The application described is a simple expense management application that allows users to view, add, edit, and delete expenses, and it displays them in a chart  ',
+    techUsed: ['React js', 'Firebase ','Tailwind css'],
+    image: task,
+    github: 'https://github.com/Yassersaife/Expenses-Web',
+  },
+ 
   {
     title: 'Sporter App',
     description:
@@ -29,6 +40,13 @@ const data = [
     image: app,
         link: '',
     github: 'https://github.com/Yassersaife/TSUNAMI_App',
+  },
+  {
+    title: 'Management Expenses app',
+    description:'The application described is a simple expense management application that allows users to view, add, edit, and delete expenses, and it displays them in a chart  ',
+    techUsed: ['React Native'],
+    image: taskapp,
+    github: 'https://github.com/Yassersaife/Expenses-App',
   },
   {
     title: 'Automated assembly line',
