@@ -5,7 +5,7 @@ import pos from '@/images/projects/pos.png'
 import oip from '@/images/projects/OIP.jpg'
 import Waddili from '@/images/projects/Waddili.png'
 import  task from '@/images/projects/task1.png'
-import  taskapp from '@/images/projects/taskapp.png'
+import  taskapp from '@/images/projects/taskapp.jpeg'
 
 const data = [
   {
