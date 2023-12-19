@@ -35,18 +35,18 @@ const data = [
   {
     title: 'Tsunami Phone',
     description:
-      'an e-commerce application for selling mobile phones.',
-    techUsed: ['React Native'],
+      'an e-commerce application for selling mobile phones,and build in apk file.',
+    techUsed: ['React Native','Firebase'],
     image: app,
         link: '',
-    github: 'https://github.com/Yassersaife/TSUNAMI_App',
+    github: 'https://github.com/Yassersaife/Tsunami.App',
   },
   {
     title: 'Management Expenses app',
     description:'The application described is a simple expense management application that allows users to view, add, edit, and delete expenses, and it displays them in a chart  ',
     techUsed: ['React Native'],
     image: taskapp,
-    github: 'https://github.com/Yassersaife/Expenses-App',
+    github: 'https://github.com/Yassersaife/ExpensesApp',
   },
   {
     title: 'Automated assembly line',

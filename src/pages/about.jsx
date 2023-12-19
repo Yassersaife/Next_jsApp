@@ -36,7 +36,7 @@ const Certificates = [
     image: node,
   },
   {
-    name: 'Traning on AI',
+    name: 'QA Manual Tester',
 
     image: pal,
   },
