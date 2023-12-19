@@ -8,7 +8,7 @@ import { Container } from '@/components/Container'
 import { baseUrl } from '../seo.config'
 import imgyasser from '@/images/yasser2.png'
 let siteUrl = process.env.NEXT_PUBLIC_SITE_URL
-import cv from '../images/pdf/cv.pdf';
+import cv from '../images/pdf/cv2.pdf';
 
   const handleDownload = () => {
     const downloadLink = document.createElement('a');
