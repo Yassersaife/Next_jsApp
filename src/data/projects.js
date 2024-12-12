@@ -6,8 +6,18 @@ import oip from '@/images/projects/OIP.jpg'
 import Waddili from '@/images/projects/Waddili.png'
 import  task from '@/images/projects/task1.png'
 import  taskapp from '@/images/projects/taskapp.jpeg'
+import  flutter from '@/images/projects/flutter.png'
+
 
 const data = [
+{
+    title: 'Austath Fanan App',
+    description:
+'The platform provides simplified and comprehensive explanations of the curriculum in an innovative and effective manner for all grades.',
+    techUsed: ['Flutter ', 'Laravel PHP'],
+    image: flutter,
+    play: 'https://play.google.com/store/apps/details?id=com.austath_fanan_app',
+  },
   {
     title: 'Waddili App',
     description:'I designed an application using React Native for a company, according to the required UI/UX specifications.    ',
@@ -57,26 +67,7 @@ const data = [
     link: 'https://www.youtube.com/watch?v=6QFtRCVXVK4',
     github: 'https://github.com/Yassersaife/Arm_robot',
   },
-  {
-    title: 'A Multi tier Online Book Store',
-    description:
-      'We wrote the code in Python using FLASK The design implemented consists of three separate components one for the Client side and two on the backend side, namely the Client, Orders and Catalogservers.',
-    techUsed: ['Flask python'],
-    image: oip,
-    link: '',
-    github: 'https://github.com/Yassersaife/app_flask_rest',
-  },
-  {
-    title: 'Pos -Application java',
-    description:
-      'The project is to design and implement a Point of Sale Management System ',
-    image: pos,
-    techUsed: [
-      'Java'
-    ],
-    link: '',
-    github: 'https://github.com/Yassersaife/POS',
-  },
+
 ]
 
 export default data

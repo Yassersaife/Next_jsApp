@@ -57,7 +57,7 @@ export default function Home({ articles }) {
             </h1>
           </div>
           <p className="mt-4 mb-6 animate-fade-in pl-1 text-base text-zinc-600 dark:text-zinc-400 md:my-6">
-            I&apos;m a full-stack engineer specializing in building in web and mobile app. My current tech stack includes React native, Javascript .
+            I&apos;m a full-stack engineer specializing in building in web and mobile app. My current tech stack includes React native, Fluttter .
           </p>
           <Button
           onClick={handleDownload}

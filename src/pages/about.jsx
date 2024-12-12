@@ -18,9 +18,12 @@ import {
   SiJupyter,
   SiFlask,
 } from 'react-icons/si'
+import { DiFlutter } from 'react-icons/di';
+
 
 import { DiNodejs } from 'react-icons/di'
 import nodejs from '../images/node.png'
+import { AiOutlineCheckCircle } from 'react-icons/ai';
 
 import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
@@ -80,13 +83,14 @@ export default function About() {
     <>
       <NextSeo
         title="About"
-        description="I'm a Full stack web developer and mobile developer . I live in Tulkarem, where I break things and learn fast."
+        description=" I am a junior-level expert in frontend mobile apps, web applications, and QA testing."
         canonical={`${baseUrl}about/`}
         openGraph={{
           url: `${baseUrl}about/`,
           title: 'About',
           description:
-            "I'm a Full stack web developer and mobile developer . I live in Tulkarem, where I break things and learn fast.",
+            " I am a junior-level expert in frontend mobile apps, web applications, and QA testing.",
+
           images: [
             {
               url: `${baseUrl}api/og?title=About`,
@@ -126,14 +130,10 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                A fresh graduated Software Engineer, experienced in web
-                development using many technologies and frameworks. I have
-                finished full training in Paltel .also, I have worked many
-                projects through my university education in web development and
-                mobile application that supports me to be more skillful into
-                this domain. Able to work as frontend engineer, full stack
-                engineer, moreover professional handling for any related
-                project.
+                I am a junior-level expert in frontend mobile apps, web applications, and QA testing. I have solid experience
+                in web development, having worked on various projects during university and completed full training at
+                Paltel. I specialize in frontend development and QA, with strong skills in multiple technologies and
+                frameworks.
               </p>
               <div className="cursor-default">
                 <span className="font-poppins font-bold tracking-widest underline">
@@ -143,6 +143,16 @@ export default function About() {
                   role="list"
                   className="mt-4 grid grid-cols-2 gap-x-6 gap-y-4 font-poppins md:grid-cols-3"
                 >
+                                  <div>
+
+                <Skills
+                  icon={DiFlutter}
+                  className="group-hover:fill-blue-400 dark:group-hover:fill-blue-300"
+                >
+                  Flutter
+                </Skills>
+                </div>
+
                   <div>
                     <Skills
                       icon={SiJavascript}
@@ -183,14 +193,7 @@ export default function About() {
                       Node js
                     </Skills>
                   </div>
-                  <div>
-                    <Skills
-                      icon={SiBootstrap}
-                      className="group-hover:fill-purple-500"
-                    >
-                      Bootstrap
-                    </Skills>
-                  </div>
+
                   <div>
                     <Skills
                       icon={SiFirebase}
@@ -201,10 +204,11 @@ export default function About() {
                   </div>
                   <div>
                     <Skills
-                      icon={SiPython}
+                      icon={AiOutlineCheckCircle}
                       className="group-hover:fill-blue-400 dark:group-hover:fill-blue-300"
                     >
-                      Python
+                       QA Testing
+
                     </Skills>
                   </div>
                   <div>

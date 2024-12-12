@@ -9,7 +9,7 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import { baseUrl } from '../seo.config'
 import data from '@/data/projects.js'
 
-import { BsYoutube, BsGithub } from 'react-icons/bs'
+import { BsYoutube, BsGithub,BsGooglePlay } from 'react-icons/bs'
 
 const databaseId = process.env.NOTION_PROJECT_DB_ID
 const delay = ['', 'delay-200', 'delay-500', 'delay-1000']
@@ -21,6 +21,7 @@ function Project({ project, index }) {
   const techUsed = project.techUsed
   const github = project.github
   const link = project.link
+  const play = project.play
   const image = project.image
   return (
     <Card as="li">
@@ -76,6 +77,15 @@ function Project({ project, index }) {
             <span className="-ml-4">Viduo Demo</span>
           </Link>
         )}
+         {play && (
+                  <Link
+                    href={play}
+                    className="flex items-center space-x-2 text-zinc-600 dark:text-zinc-300 md:hover:text-indigo-500"
+                  >
+                    <BsGooglePlay className="h-4 w-4 flex-none fill-current transition" />
+                    <span className="-ml-4">Google Play</span>
+                  </Link>
+                )}
       </p>
     </Card>
   )
