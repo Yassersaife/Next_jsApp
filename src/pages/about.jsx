@@ -13,18 +13,15 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiPython,
-  SiBootstrap,
+  SiFlutter ,
   SiFirebase,
   SiJupyter,
   SiFlask,
 } from 'react-icons/si'
-import { DiFlutter } from 'react-icons/di';
 
 
 import { DiNodejs } from 'react-icons/di'
 import nodejs from '../images/node.png'
-import { AiOutlineCheckCircle } from 'react-icons/ai';
-
 import { Container } from '@/components/Container'
 import { Button } from '@/components/Button'
 import portraitImage from '@/images/yasser.png'
@@ -146,7 +143,7 @@ export default function About() {
                                   <div>
 
                 <Skills
-                  icon={DiFlutter}
+                  icon={SiFlutter}
                   className="group-hover:fill-blue-400 dark:group-hover:fill-blue-300"
                 >
                   Flutter
@@ -204,7 +201,7 @@ export default function About() {
                   </div>
                   <div>
                     <Skills
-                      icon={AiOutlineCheckCircle}
+                      icon={SiReact}
                       className="group-hover:fill-blue-400 dark:group-hover:fill-blue-300"
                     >
                        QA Testing
